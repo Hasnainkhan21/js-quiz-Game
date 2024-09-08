@@ -1,0 +1,66 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    background-color: #b2d7ff;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the form */
+#form {
+    background: #fff5f5;
+    justify-content: center;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style the question text */
+#form p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+    
+}
+
+/* Style the buttons */
+#form button {
+    background-color: #007BFF;
+    display: flex;
+    position: relative;
+    margin: 12px auto;
+    border: none;
+    width: 120px;
+    color: white;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style for button hover effect */
+#form button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for disabled buttons */
+#form button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+#button-container{
+    gap: 20px;
+}
